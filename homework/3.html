@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 1.用flex */
+        /* .main{
+            display: flex;
+            height: 100px;
+        }
+        .left{
+            flex: 1;
+            background-color: darkgoldenrod;
+        }
+        .right{
+            width: 800px;
+            background-color: darkgray;
+        } */
+
+        /* 2.用float */
+        /* .main{
+            overflow: hidden;
+        }
+        .left{
+            height: 100px;
+            margin-right: 310px;
+            background-color: darkkhaki;
+        }
+        .right{
+            height: 100px;
+            width: 300px;
+            float: right;
+            background-color: darkgreen;
+        } */
+
+        /* 3.用position */
+        .left{
+            /* position: absolute; */
+            margin-right: 300px;
+            background-color: darkkhaki;
+            height: 100px;
+        }
+        .right{
+            width: 300px;
+            position: absolute;
+            right: 0;
+            background-color: darkmagenta;
+            height: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="right"></div>
+        <div class="left"></div>
+        
+    </div>
+</body>
+</html>

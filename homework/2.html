@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 1.基础方案 */
+        /* .left{
+            width: 800px;
+            height: 100px;
+            float: left;
+            background-color: burlywood;
+        }
+        .right{
+            height: 100px;
+            background-color: cadetblue;
+        } */
+
+        /* 3.flex方案 */
+        /* .wrapper{
+            display: flex;
+            height: 100px;
+        }
+        .left{
+            width: 200px;
+            
+            background-color: darkblue;
+        }
+        .right{
+            flex: 1;
+            background-color: crimson;
+        } */
+
+        /* 4.用position方案 */
+        .left{
+            position: absolute;
+            width: 300px;
+            height: 100px;
+            left: 0;
+            background-color: darkblue;
+        }
+        .right{
+            margin-left: 300px;
+            /* position: absolute; */
+            height: 100px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+
+</html>
